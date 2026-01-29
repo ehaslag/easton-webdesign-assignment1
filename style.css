@@ -1,0 +1,50 @@
+p {
+
+    font-family: Helvetica, "Times New Roman", sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-family: Helvetica, "Times New Roman", serif;
+    text-align: center;
+}
+
+#nav {
+    padding: 0;
+    list-style-type: none;
+}
+
+h3 { font-family: helvetica, "Times New Roman", sans-serif;
+    margin: auto;
+    padding: auto;
+    text-align:center;
+    }
+
+#nav li {
+    margin: 0;
+    padding: 0;
+    text-align:center;
+    border-bottom: 1px solid #ccc;
+    text-decoration: none;
+
+    #container{
+    width: 95%;
+    margin: 0 auto;
+    color: #bbbbbb;
+    text-align: center;
+}
+
+#nav a:link, a:visited {
+    display:block;
+    color: #ffffff;
+    background-color: #ffffff
+    font-weight: bold;
+    text-align:center;
+    font-family: Helvetica, "Times New Roman, sans-serif;";
+    text-decoration: none;
+    padding: 4px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#nav a:hover, a:active {
+    background-color: #bbbbbb
