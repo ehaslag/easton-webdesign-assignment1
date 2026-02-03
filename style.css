@@ -1,11 +1,30 @@
 p {
-
     font-family: Helvetica, "Times New Roman", sans-serif;
     text-align: center;
+}
+.intro {
+    font-weight: bold;
+    font-size: 24px;
 }
 
 h1 {
     font-family: Helvetica, "Times New Roman", serif;
+    text-align: center;
+    color: #4349C4;
+}
+
+h3 { font-family: Helvetica, "Times New Roman", serif;
+    text-align: center;
+    color: #4349C4;}
+
+h4 {
+    font-family: Helvetica, "Times New Roman", sans-serif;
+    text-align: center;
+}
+
+#container {
+    width: 95%;
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -14,37 +33,27 @@ h1 {
     list-style-type: none;
 }
 
-h3 { font-family: helvetica, "Times New Roman", sans-serif;
-    margin: auto;
-    padding: auto;
-    text-align:center;
-    }
-
 #nav li {
-    margin: 0;
-    padding: 0;
-    text-align:center;
-    border-bottom: 1px solid #ccc;
-    text-decoration: none;
-
-    #container{
-    width: 95%;
-    margin: 0 auto;
-    color: #bbbbbb;
     text-align: center;
+    border-bottom: 1px solid #ccc;
+    list-style-type: none;
+    padding: 8px 0;
 }
 
-#nav a:link, a:visited {
-    display:block;
+#nav a:link,
+#nav a:visited {
+    display: block;
     color: #ffffff;
-    background-color: #ffffff
+    background-color: #333;
     font-weight: bold;
-    text-align:center;
-    font-family: Helvetica, "Times New Roman, sans-serif;";
-    text-decoration: none;
-    padding: 4px;
+    text-align: center;
     font-family: Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    padding: 10px;
 }
 
-#nav a:hover, a:active {
-    background-color: #bbbbbb
+#nav a:hover,
+#nav a:active {
+    background-color: #bbbbbb;
+    padding: 10px;
+}
