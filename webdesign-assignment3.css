@@ -1,27 +1,28 @@
 
-
-
 p {
-    font-family: Helvetica, "Times New Roman", sans-serif;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
     text-align: center;
 }
+
 .intro {
     font-weight: bold;
     font-size: 24px;
 }
 
 h1 {
-    font-family: "Times New Roman", Helvetica, serif;
+    font-family: 'Playfair Display', "Times New Roman", serif;
     text-align: center;
     color: #4349C4;
 }
 
-h3 { font-family: Helvetica, "Times New Roman", serif;
+h3 {
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
     text-align: center;
-    color: #4349C4;}
+    color: #4349C4;
+}
 
 h4 {
-    font-family: Helvetica, "Times New Roman", sans-serif;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
     text-align: center;
 }
 
@@ -50,7 +51,7 @@ h4 {
     background-color: #333;
     font-weight: bold;
     text-align: center;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
     text-decoration: none;
     padding: 10px;
 }
@@ -59,4 +60,3 @@ h4 {
 #nav a:active {
     background-color: #bbbbbb;
     padding: 10px;
-}
